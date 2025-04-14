@@ -1,7 +1,7 @@
 # VAULT MVP - Virtual Try-On System with YOLO and Neural Radiance Fields
 
 ## Overview
-This project implements a virtual try-on system that combines YOLO object detection with Neural Radiance Fields (NeRF) for realistic 3D clothing visualization. The system allows users to virtually try on clothing items by capturing them with a camera and rendering them onto a 3D body model.
+This project implements a virtual try-on system that combines YOLO object detection with Neural Radiance Fields (NeRF) for BASIC 3D clothing visualization. The system allows users to virtually try on clothing items by capturing them with a camera and rendering them onto a 3D body model.
 
 ### Training Performance Analysis
 The training plot shows the model's learning progression over 10 epochs. Here are the key observations:
