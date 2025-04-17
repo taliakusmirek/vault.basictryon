@@ -108,7 +108,7 @@ with open("roboflow_dataset/train/labels/100034.txt") as f:
 from roboflow import Roboflow
 import time
 
-rf = Roboflow(api_key="9XYDbYLIX53q6YTrWWeP")
+rf = Roboflow(api_key="")
 workspace = rf.workspace()
 
 # Create project (with error handling)
@@ -155,7 +155,7 @@ from IPython.display import display, Image
 import shutil
 
 # 2. DOWNLOAD DATASET
-rf = Roboflow(api_key="9XYDbYLIX53q6YTrWWeP")
+rf = Roboflow(api_key="")
 project = rf.workspace().project("fashion-ar-tryon-final")
 dataset = project.version(1).download("yolov8")
 dataset_path = dataset.location
